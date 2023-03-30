@@ -1,0 +1,164 @@
+/* elements */
+body{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.colored-section p{
+    color: white;
+}
+
+/* section color */
+.colored-section{
+    background-color:  rgb(227, 115, 122);
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/* title */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    left: 2rem;
+    font-size: 2.5rem;
+}
+
+.nav-item{
+    padding: 0 1rem;
+    font-family: 'Open Sans';
+}
+
+.container-fluid{
+    padding: 3% 15% 9%;
+}
+
+.big-heading{
+    font-size: 3.5em;
+    line-height: 1.5;;
+}
+
+.phone{
+    width: 20rem;
+    position: static;
+    transform: rotate(0);
+    margin-left: 0;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+@media (min-width: 1000px) {
+    .phone{
+        margin-left: 6rem;
+        position: absolute;
+        transform: rotate(15deg);
+    }
+
+    #title{
+        text-align: left;
+    }
+}
+
+/* features */
+#features{
+    padding: 7% 12%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature{
+    padding: 5% 6%;
+}
+
+.fa-2xl{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.icon1:hover + .icon2{
+    display: inline-block;
+}
+
+.icon1:hover{
+    display: none;
+}
+
+.icon2{
+    display: none;
+}
+
+/* testimonials */
+.testimonial-image{
+    width: 20%;
+    border-radius: 50%;
+    margin: 3%;
+}
+
+.testimonial-text{
+    padding: 0 15%;
+}
+
+.press-images{
+    width: 10%;
+    margin: 5% 5%;
+    margin-top: 0;
+}
+
+.carousel-item{
+    padding: 10% 15% 5%;
+}
+
+/* pricing */
+#pricing{
+    padding: 6rem;
+    position: relative;
+}
+
+.pricing-column{
+    padding: 2% 3%;
+}
+
+/* cta */
+.cta-items{
+    padding: 8rem 3rem;
+}
+
+.cta-btn{
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+/* footer */
+#footer{
+    margin: 5rem;
+}
+
+.footer-icons{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer-icon{
+    margin: 0.5rem;
+}
